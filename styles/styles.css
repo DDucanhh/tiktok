@@ -1,0 +1,105 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* header */
+.logo {
+  width: 69px;
+  height: 55px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #e1e1e1;
+  position: fixed;
+  width: 1200px;
+}
+
+.search form input {
+  width: 400px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #f1f1f2;
+  border: none;
+  font-size: 16px;
+  padding: 0 12px;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.search form button {
+  width: 50px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #f1f1f2;
+  border: none;
+  font-size: 16px;
+  padding: 0 12px;
+  border-left: 1px solid rgb(203, 203, 203);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: -4px;
+  padding-right: 0 12px;
+  position: relative;
+}
+.search form button::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  background-color: #f1f1f2;
+  margin-left: -33px;
+  margin-top: -13px;
+}
+.search form button::before {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  background-color: #f1f1f2;
+  margin-left: -17px;
+  margin-top: 23px;
+}
+.search form {
+  margin-left: 150px;
+}
+.tools {
+  display: flex;
+  gap: 20px;
+  margin-right: 14px;
+  align-items: center;
+}
+.tools button {
+  background-color: white;
+  border: 1px solid rgb(229, 229, 229);
+  padding: 5px 17px;
+  font-size: 16px;
+}
+.tools i {
+  font-size: 22px;
+  color: #31333d;
+}
+/* body */
+.scroll {
+  display: inline-block;
+  margin-top: 1200px;
+}
+
+/* Large screens and Desktops  */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+/* Laptops and small screen */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/* iPads and Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+/* For Mobile Devices */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
